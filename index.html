@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Run Buddy</title>
 
   </head>
@@ -53,9 +53,10 @@
 
 </header>
 <!-- hero section -->
-<section>
+<section class="hero">
 
-    <div>
+    <div class="hero-form">
+
 
         <h3>Get Started Today</h3>
 
@@ -65,15 +66,18 @@
 
             <label for="name">Enter Full name</label>
 
-            <input type="text" placeholder="Your Name" name="name" id="name" />
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+
 
             <label for="email">Enter email address:</label>
 
-            <input type="email" placeholder="Email Address" name="email" id="email" />
+            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input">
+
 
             <label for="phone">Enter a telephone number:</label>
             
-            <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
+
 
             <p>
 
@@ -83,9 +87,11 @@
 
                 <label for="trainer-yes">Yes</label>
 
+
                 <input type="radio" name="trainer-confirm" id="trainer no" />
 
                 <label for="trainer-no">No</label>
+
 
             </p>
 
@@ -115,27 +121,148 @@
 
 <!--end hero-->
 
-<section>
+<!-- "what we do" section -->
+<section id="what-we-do" class="intro">
 
-    <h2>What We Do</h2>
+    <h2 class="section-title primary-border">What We Do</h2>
+
+    <p>
+
+        Butcher selfies chambray shabby chic readymade yr Echo Park XOXO Tumbler normcore Bansky direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz Intelligentsia umami deep v craft
+
+    </p>
+
+    </section>
+<!-- "what you do" section -->
+    <section id="what-you-do" class="steps">
+
+        <h2 class="section-title secondary-border">What You Do</h2>
+
+        <div>
+            
+            <!-- insert this img element -->
+
+            <img src="./assets/image/step-1.svg" alt="" />
+
+            <h3>Step 1: Fill Out the Form Above.</h3>
+
+            <p> You're already here, so why not?</p>
+
+        </div>
+
+        <div>
+            <img src="./assets/image/step-2.svg" alt="" />
+
+            <h3>Step 2: Consult with One of Our Trainers. </h3>
+
+            <p>Are you here to build muscle, lose weight, or just feel good? </p>
+
+        </div>
+
+        <div>
+            <img src="./assets/image/step-3.svg" alt=""/>
+
+            <h3>Step 3: Get Running.</h3>
+
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+
+        </div>
+
+        <div>
+            <img src="./assets/image/step-4.svg" alt=""/>
+
+            <h3>Step 4: See Results.</h3>
+
+            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+
+        </div>
 
     </section>
 
-    <section>
+    <section id="your-trainers" class="trainers">
 
-        <h2> What You Do</h2>
+        <h2 class="section-title primary-border">
+
+            Meet The Trainers
+
+        </h2>
+
+        <article class="trainer">
+
+            <img src="./assets/image/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
+
+            <div class="trainer-bio text-left">
+
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+
+                <p>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore expedita eum alias ipsa autem eaque quaerat ea recusandae, necessitatibus perspiciatis asperiores odit assumenda aut, placeat voluptatum nulla quidem id!
+
+                </p>
+            </div>
+        </article>
+
+        <article class="trainer">
+
+            <div class="trainer-bio text-right">
+
+                <h3>Joanna Gill</h3>
+                <h4>Endurace</h4>
+
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus, sed accusantium iusto voluptates totam. Obcaecati voluptatibus exercitationem dolor maxime odit labore, nisi nostrum voluptates aliquid. Fugit illum assumenda vitae.
+
+                </p>
+            </div>
+            <img src="./assets/image/trainer-2.jpg" alt="Joanna Gill cooling off after a wrokout" />
+        </article>
+
+        <article class="trainer">
+            <img src="./assets/image/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting commically small pink weights" />
+
+            <div class="trainer-bio text-left">
+
+                <h3>Harry "the Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eos aliquid aut, quidem velit nulla sapiente officia provident consequatur, accusamus suscipit repellat hic architecto magni ea ut nesciunt voluptatum perspiciatis.
+
+                </p>
+            </div>
+        </article>
 
     </section>
 
-    <section>
+    <section id="reach-out" class="contact">
 
-        <h2>Meet The Trainers</h2>
+        <h2 class="section-title secondary-border">Reach Out</h2>
 
-    </section>
+        <div class="contact-info">
 
-    <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.572920939746!2d-80.15808134825505!3d34.589671480367365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8855a6f0c270dfa9%3A0x4905c1b4358706cb!2s599%20Huggins%20Rd%2C%20Patrick%2C%20SC%2029584!5e0!3m2!1sen!2sus!4v1654451096032!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>""
 
-        <h2>Reach Out</h2>
+            <h3>Run Buddy</h3>
+
+            <p>
+                Any questions or concerns before signing up?
+
+                <br />
+                
+                Let us know and we'll be happy to talk to you!
+
+            </p>
+
+            <address>
+
+                55 Main Steet <br/>
+                Some Town, Ca <br/>
+                12345<br />
+                P: 555.RUN.BUDZ (555.786.2839)<br/>
+                E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+
+            </address>
+                
+        </div>
 
     </section>    
 
